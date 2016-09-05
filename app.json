@@ -1,0 +1,6 @@
+{
+  "name": "testheroku",
+  "description": "\"Test circle CI heroku deployment\"",
+  "repository": "https://github.com/Maryna-Yelakova/testheroku.git"
+
+}
