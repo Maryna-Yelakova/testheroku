@@ -4,7 +4,7 @@
   "description": "\"Test circle CI heroku deployment\"",
   "main": "server.js",
   "scripts": {
-    "test": "./spec/test.js",
+    "test": "./node_modules/.bin/jasmine-node spec",
     "start": "node server.js"
   },
   "repository": {
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Maryna-Yelakova/testheroku#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "jasmine-core": "^2.5.0",
+    "jasmine-node": "^1.14.5",
     "karma": "^1.2.0",
     "karma-chrome-launcher": "^2.0.0",
     "karma-jasmine": "^1.0.2",
