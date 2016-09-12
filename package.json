@@ -4,7 +4,7 @@
   "description": "\"Test circle CI heroku deployment\"",
   "main": "server.js",
   "scripts": {
-    "test": "test.js",
+    "test": "spec/test.js",
     "start": "node server.js"
   },
   "repository": {
@@ -22,7 +22,8 @@
     "jasmine-core": "^2.5.0",
     "karma": "^1.2.0",
     "karma-chrome-launcher": "^2.0.0",
-    "karma-jasmine": "^1.0.2"
+    "karma-jasmine": "^1.0.2",
+    "request": "^2.74.0"
   },
   "devDependencies": {
     "jasmine": "^2.5.0"
