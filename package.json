@@ -4,7 +4,7 @@
   "description": "\"Test circle CI heroku deployment\"",
   "main": "server.js",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node spec",
+    "test": "jasmine-node spec",
     "start": "node server.js"
   },
   "repository": {
@@ -19,7 +19,9 @@
   "homepage": "https://github.com/Maryna-Yelakova/testheroku#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "jasmine-node": "^1.14.5"
+    "request": "^2.74.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
