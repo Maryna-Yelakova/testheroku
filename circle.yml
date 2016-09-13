@@ -1,6 +1,6 @@
 test:
   override:
-  - src/test.js
+  - /src/test.js
 deployment:
   prod:
     branch: master
