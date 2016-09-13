@@ -1,3 +1,5 @@
+test:
+  override: src/test
 deployment:
   prod:
     branch: master
